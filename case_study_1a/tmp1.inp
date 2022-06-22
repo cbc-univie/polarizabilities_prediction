@@ -1,0 +1,35 @@
+* TEST
+*
+
+!=======================================================================
+! force field
+!=======================================================================
+open read card unit 10 name ../top_all36_cgenff.rtf
+read  rtf card unit 10
+close unit 10
+
+open read card unit 20 name ../par_all36_cgenff.prm
+read para card unit 20 
+close unit 20
+
+
+!=======================================================================
+! sequence and coordinates
+!=======================================================================
+
+read SEQUENCE acet 1
+generate acet SETUP warn
+
+IC PARAMETERS
+
+PRINT IC
+
+open unit 1 write card name tmp.psf
+write psf card unit 1
+* PSF
+*
+
+stop
+
+
+

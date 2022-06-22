@@ -1,0 +1,45 @@
+* TEST
+*
+
+!=======================================================================
+! force field
+!=======================================================================
+open read card unit 10 name ../top_all36_cgenff.rtf
+read  rtf card unit 10
+close unit 10
+
+open read card unit 20 name ../par_all36_cgenff.prm
+read para card unit 20 
+close unit 20
+
+
+!=======================================================================
+! sequence and coordinates
+!=======================================================================
+
+read SEQUENCE acet 1
+generate acet SETUP warn
+
+IC PARAMETERS
+IC SEED 1 O1 1 C2 1 C1
+IC BUILD
+
+
+PRINT IC
+PRINt COORdinate
+
+
+MINI SD NSTEP 500
+MINI ABNR NSTEP 100
+
+OPEN WRITE UNIT 08 CARD NAME acet.CRD
+WRITE COORDINATES CARD UNIT 08
+* TEST
+* from parameter vales
+*
+
+
+stop
+
+
+

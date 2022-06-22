@@ -1,0 +1,68 @@
+                                     G D M A
+
+                                 by Anthony Stone
+
+                         version 2.2.11, 04 February 2015
+
+               Distributed Multipoles from Gaussian wavefunctions
+
+
+Starting at 16:26:30 on 15 May 2019 
+
+
+Using SCF density matrix from file ../../x.fchk
+
+
+                         Distributed Multipole Analysis
+
+Standard DMA for products of primitives with exponent greater than 4.00000
+Using 80-point Euler-MacLaurin radial quadrature
+Using 590-point Lebedev quadrature
+Becke smoothing parameter = 3
+
+Positions and radii in angstrom
+Multipole moments in atomic units, ea_0^k for rank k
+
+C          x = -1.346377  y = -0.060108  z =  0.000151 angstrom
+           Maximum rank =  1   Radius =  0.650 angstrom
+                   Q00  =  -0.124538
+|Q1| =   0.144189  Q10  =   0.000066  Q11c =   0.143297  Q11s =   0.016016
+
+C          x =  0.202110  y =  0.002068  z = -0.001243 angstrom
+           Maximum rank =  1   Radius =  0.650 angstrom
+                   Q00  =   0.187224
+|Q1| =   0.122695  Q10  =   0.000461  Q11c =   0.122693  Q11s =   0.000606
+
+H          x = -1.702832  y = -1.094362  z =  0.000614 angstrom
+           Maximum rank =  1   Radius =  0.325 angstrom
+                   Q00  =   0.050291
+|Q1| =   0.183317  Q10  =  -0.000054  Q11c =   0.133371  Q11s =   0.125766
+
+H          x = -1.731829  y =  0.463772  z = -0.882006 angstrom
+           Maximum rank =  1   Radius =  0.325 angstrom
+                   Q00  =   0.051458
+|Q1| =   0.182324  Q10  =   0.117055  Q11c =   0.127014  Q11s =  -0.058376
+
+H          x = -1.730286  y =  0.464027  z =  0.882833 angstrom
+           Maximum rank =  1   Radius =  0.325 angstrom
+                   Q00  =   0.051643
+|Q1| =   0.182194  Q10  =  -0.117126  Q11c =   0.126773  Q11s =  -0.058349
+
+O          x =  0.813848  y = -1.110682  z =  0.000321 angstrom
+           Maximum rank =  1   Radius =  0.650 angstrom
+                   Q00  =  -0.605842
+|Q1| =   0.571151  Q10  =  -0.000215  Q11c =  -0.213034  Q11s =   0.529934
+
+O          x =  0.689970  y =  1.175032  z =  0.000318 angstrom
+           Maximum rank =  1   Radius =  0.650 angstrom
+                   Q00  =  -0.610235
+|Q1| =   0.571924  Q10  =  -0.000258  Q11c =  -0.162825  Q11s =  -0.548257
+
+Total multipoles referred to origin at
+           x =   0.000000,  y =    0.000000,  z =    0.000000 angstrom
+                   Q00  =  -0.999999
+|Q1| =   1.562646  Q10  =  -0.000831  Q11c =  -1.560853  Q11s =  -0.074827
+
+CPU time used:      0m36.140s          Total:      0m36.140s
+
+Finished at 16:27:17 on 15 May 2019 
