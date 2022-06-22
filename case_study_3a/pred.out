@@ -1,0 +1,57 @@
+===============================================================
+Polarizability and partial charge predictor - Version 1.0
+===============================================================
+Step 1: Atom typing using CGenFF...
+Step 2: Calculate bonds, angles, and dihedrals...
+Step 3A: Adding up increments - Increments...
+
+        Name         Type        Char.  corr. Char.         Pol.        Pol.H   0.85 Pol.H
+       ------------------------------------------------------------------------------------
+          C1        CG331       -0.341       -0.381        1.077        2.246        1.909
+          C2        CG2O3        0.919        0.879        1.315        1.315        1.118
+          H1         HGA3        0.102        0.062        0.390  
+          H2         HGA3        0.102        0.062        0.390  
+          H3         HGA3        0.102        0.062        0.390  
+          O1        OG2D2       -0.803       -0.842        1.380        1.380        1.173
+          O2        OG2D2       -0.803       -0.842        1.380        1.380        1.173
+       ------------------------------------------------------------------------------------
+Total charge:                        -0.721
+Total corrected charge:              -1.000
+Charge from str file:                -1.000
+Total polarizability:                 6.320
+Total scaled polarizability:          5.372
+
+Step 3B: Adding up increments - Neural net...
+
+        Name         Type        Char.  corr. Char.         Pol.        Pol.H   0.85 Pol.H
+       ------------------------------------------------------------------------------------
+          C1        CG331       -0.293       -0.292        1.126        2.457        2.088
+          C2        CG2O3        0.941        0.942        1.337        1.337        1.136
+          H1         HGA3        0.017        0.018        0.444  
+          H2         HGA3        0.017        0.018        0.444  
+          H3         HGA3        0.017        0.018        0.444  
+          O1        OG2D2       -0.853       -0.852        1.526        1.526        1.297
+          O2        OG2D2       -0.853       -0.852        1.526        1.526        1.297
+       ------------------------------------------------------------------------------------
+Total charge:                        -1.006
+Total corrected charge:              -1.000
+Charge from str file:                -1.000
+Total polarizability:                 6.845
+Total scaled polarizability:          5.819
+
+Step 4: Lonepairs
+
+LONEPAIR relative LP1A O1 C2 C1 distance 0.35 angle 110.0 dihe   0.0
+LONEPAIR relative LP1B O1 C2 C1 distance 0.35 angle 110.0 dihe 180.0
+ANISOTROPY O1 C2 LP1A LP1B A11 0.7229 A22 1.265
+LONEPAIR relative LP2A O2 C2 C1 distance 0.35 angle 110.0 dihe   0.0
+LONEPAIR relative LP2B O2 C2 C1 distance 0.35 angle 110.0 dihe 180.0
+ANISOTROPY O2 C2 LP2A LP2B A11 0.7229 A22 1.265
+
+===============================================================
+Program finished.
+
+(c) 2018, Esther Heid, Markus Fleck and Alex MacKerell
+    University of Maryland, School of Pharmacy
+    University of Vienna, Inst. Comp. Biol. Chemistry
+===============================================================

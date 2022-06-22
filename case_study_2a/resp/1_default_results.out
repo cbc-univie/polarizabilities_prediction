@@ -1,0 +1,34 @@
+
+ Electrostatic potential parameters
+
+ Grid information (see 1_default_grid.dat in units of <psi4)
+     Number of VDW layers:             4
+     VDW scale facotr:                 1.400
+     VDW increment:                    0.200
+     VDW point density:                20.000
+     Number of grid points:            11302
+
+ Quantum electrostatic potential (see 1_default_grid_esp.dat)
+     ESP method:                       HF
+     ESP basis set:                    3-21G
+
+ Constraints
+
+ Restraint
+     Hyperbolic restraint to a charge of zero
+     Hydrogen atoms are not restrained
+     resp_a:                           0.0005
+     resp_b:                           0.1000
+
+ Fit
+
+ Electrostatic Potential Charges
+   Center  Symbol       ESP      RESP
+       1    C       -0.47948  -0.47258
+       2    C        0.99180   0.98852
+       3    H        0.06371   0.06190
+       4    H        0.07686   0.07518
+       5    H        0.07775   0.07607
+       6    O       -0.86203  -0.86125
+       7    O       -0.86861  -0.86784
+ Total Charge:      -1.00000  -1.00000
